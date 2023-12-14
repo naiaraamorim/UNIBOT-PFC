@@ -1,0 +1,34 @@
+version: "3.1"
+
+intents:
+  - saudacao
+  - despedida
+  - afirmacao
+  - negacao
+  - humor_bom
+  - humor_ruim
+  - desafio_bot
+
+responses:
+  utter_saudacao:
+  - text: "E aí! Como vai você?"
+
+  utter_anime:
+  - text: "Aqui está algo para animar você:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_ajuda:
+  - text: "Isso ajudou você?"
+
+  utter_feliz:
+  - text: "Ótimo, continue assim!"
+
+  utter_despedida:
+  - text: "Tchau"
+
+  utter_eusouumrobo:
+  - text: "Eu sou um robô, alimentado pelo Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

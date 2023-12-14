@@ -1,0 +1,13 @@
+version: "3.1"
+
+rules:
+
+- rule: Dizer adeus sempre que o usuário se despedir
+  steps:
+  - intent: despedida
+  - action: utter_despedida
+
+- rule: Dizer 'Eu sou um robô' sempre que o usuário desafiar
+  steps:
+  - intent: desafio_bot
+  - action: utter_eusouumrobo

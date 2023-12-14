@@ -1,0 +1,88 @@
+stories:
+- story: caminho feliz 1
+  steps:
+  - user: |
+      olá!
+    intent: saudacao
+  - action: utter_saudacao
+  - user: |
+      incrível
+    intent: humor_bom
+  - action: utter_feliz
+
+- story: caminho feliz 2
+  steps:
+  - user: |
+      olá!
+    intent: saudacao
+  - action: utter_saudacao
+  - user: |
+      incrível
+    intent: humor_bom
+  - action: utter_feliz
+  - user: |
+      tchau!
+    intent: despedida
+  - action: utter_despedida
+
+- story: caminho triste 1
+  steps:
+  - user: |
+      olá
+    intent: saudacao
+  - action: utter_saudacao
+  - user: |
+      não estou bem
+    intent: humor_ruim
+  - action: utter_anime
+  - action: utter_ajuda
+  - user: |
+      sim
+    intent: afirmacao
+  - action: utter_feliz
+
+- story: caminho triste 2
+  steps:
+  - user: |
+      olá
+    intent: saudacao
+  - action: utter_saudacao
+  - user: |
+      não estou bem
+    intent: humor_ruim
+  - action: utter_anime
+  - action: utter_ajuda
+  - user: |
+      na verdade não
+    intent: negacao
+  - action: utter_despedida
+
+- story: caminho triste 3
+  steps:
+  - user: |
+      oi
+    intent: saudacao
+  - action: utter_saudacao
+  - user: |
+      muito terrível
+    intent: humor_ruim
+  - action: utter_anime
+  - action: utter_ajuda
+  - user: |
+      não
+    intent: negacao
+  - action: utter_despedida
+
+- story: dizer adeus
+  steps:
+  - user: |
+      tchau!
+    intent: despedida
+  - action: utter_despedida
+
+- story: desafio do bot
+  steps:
+  - user: |
+      você é um robô?
+    intent: desafio_bot
+  - action: utter_eusouumrobo
