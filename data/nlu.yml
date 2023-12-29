@@ -17,6 +17,8 @@ nlu:
     - olá, tudo bem?
     - olá, como está?
     - Eae?
+    - Oi chatbot
+    - Oi unibot
 
 - intent: despedida
   examples: |

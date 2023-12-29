@@ -12,6 +12,8 @@ intents:
 responses:
   utter_saudacao:
   - text: "E aí! Como vai você?"
+  - text: "Olá, seja bem vindo"
+  - text: "Eaeeeeeeeeee bro!!!!!"
 
   utter_anime:
   - text: "Aqui está algo para animar você:"
