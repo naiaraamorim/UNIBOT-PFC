@@ -74,6 +74,24 @@ nlu:
     - estou triste
     - muito triste
 
+- intent: historia_unifesspa
+  examples: |
+    - Qual é a história da Unifesspa?
+    - Como a Unifesspa foi criada?
+    - Quando a unifesspa foi criada?
+    - Qual dia da criação da unifesspa?
+    - Como a Unifesspa se originou em relação à Universidade Federal do Pará (UFPA)?
+    - Qual a origem da unifesspa?
+
+- intent: unifesspa_reitor
+  examples: |
+    - Quem é o reitor da Unifesspa?
+    - Qual é o nome do atual reitor da Unifesspa?
+    - Quem lidera a Unifesspa atualmente?
+    - Quem está à frente da administração da Unifesspa?
+    - Quem ocupa o cargo de reitor na Unifesspa?
+    - Quem é responsável pela gestão da Unifesspa?
+
 - intent: desafio_bot
   examples: |
     - você é um robô?

@@ -8,6 +8,8 @@ intents:
   - humor_bom
   - humor_ruim
   - desafio_bot
+  - historia_unifesspa
+  - unifesspa_reitor
 
 responses:
   utter_saudacao:
@@ -27,6 +29,16 @@ responses:
 
   utter_despedida:
   - text: "Tchau"
+
+  utter_historiaUni:
+  - text: "Em 5 de junho de 2013, a Unifesspa foi estabelecida por meio da Lei Federal 12.824, originando-se do Campus Marabá da UFPA. Seu principal propósito é difundir uma educação pública de excelência. A instituição está profundamente enraizada na comunidade local, enfatizando o desenvolvimento regional como um dos pilares centrais de sua missão."
+  - text: "Criada em 5 de junho de 2013 pela Lei Federal 12.824, a Unifesspa surgiu do desmembramento do Campus Marabá da UFPA. Sua missão central é fomentar a propagação de uma educação pública de qualidade superior. Integrada à sociedade regional, a universidade prioriza o desenvolvimento local como elemento essencial de sua missão institucional."
+  - text: "Em decorrência da Lei Federal 12.824, a Unifesspa foi estabelecida em 5 de junho de 2013, separando-se do Campus Marabá da UFPA. Seu foco primordial é difundir uma educação pública de elevado padrão. A instituição está fortemente enraizada na comunidade regional, com ênfase no desenvolvimento local como parte fundamental de sua missão."
+  - text: "A partir da promulgação da Lei Federal 12.824 em 5 de junho de 2013, a Unifesspa emergiu do desmembramento do Campus Marabá da UFPA. Seu objetivo central é propagar uma educação pública de qualidade. A universidade está intimamente ligada à sociedade local, priorizando o desenvolvimento regional como componente essencial de sua missão."
+  - text: "Estabelecida através da Lei Federal 12.824 em 5 de junho de 2013, a Unifesspa originou-se do Campus Marabá da UFPA. Sua principal meta é disseminar uma educação pública de alto nível. Enraizada na comunidade regional, a instituição valoriza o desenvolvimento local como um dos princípios fundamentais de sua missão."
+  
+  utter_reitor:
+  - text: "Francisco Ribeiro da Costa"
 
   utter_eusouumrobo:
   - text: "Eu sou um robô, alimentado pelo Rasa."

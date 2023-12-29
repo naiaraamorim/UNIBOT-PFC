@@ -1,14 +1,21 @@
 stories:
-- story: caminho feliz 1
+- story: caminho historia
   steps:
   - user: |
       olá!
     intent: saudacao
   - action: utter_saudacao
   - user: |
-      incrível
-    intent: humor_bom
-  - action: utter_feliz
+      história unifesspa
+    intent: historia_unifesspa
+  - action: utter_historiaUni
+  
+  - story: caminho reitor
+  steps:
+  - user: |
+      quem é o reitor?
+    intent: unifesspa_reitor
+  - action: utter_reitor
 
 - story: caminho feliz 2
   steps:

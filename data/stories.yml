@@ -2,12 +2,17 @@ version: "3.1"
 
 stories:
 
-- story: caminho feliz
+- story: caminho historia
   steps:
   - intent: saudacao
   - action: utter_saudacao
-  - intent: humor_bom
-  - action: utter_feliz
+  - intent: historia_unifesspa
+  - action: utter_historiaUni
+
+- story: caminho reitor
+  steps:
+  - intent: unifesspa_reitor
+  - action: utter_reitor
 
 - story: caminho triste 1
   steps:
