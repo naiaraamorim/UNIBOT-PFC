@@ -74,6 +74,15 @@ nlu:
     - estou triste
     - muito triste
 
+
+- intent: desafio_bot
+  examples: |
+    - você é um robô?
+    - você é humano?
+    - estou falando com um robô?
+    - estou falando com um humano?
+
+
 - intent: historia_unifesspa
   examples: |
     - Qual é a história da Unifesspa?
@@ -92,9 +101,53 @@ nlu:
     - Quem ocupa o cargo de reitor na Unifesspa?
     - Quem é responsável pela gestão da Unifesspa?
 
-- intent: desafio_bot
+- intent: unifesspa_cidades
   examples: |
-    - você é um robô?
-    - você é humano?
-    - estou falando com um robô?
-    - estou falando com um humano?
+    - Em quais cidades a unifesspa está presente?
+    - Quais localidades são atendidas pela Unifesspa?
+    - Em quais municípios a Unifesspa possui campus?
+    - Quais cidades abrigam unidades da Unifesspa?
+    - Onde estão localizadas as instalações da Unifesspa?
+    - Quais são as regiões que contam com presença da Unifesspa?
+    - Em quais lugares a Unifesspa tem sua atuação educacional?
+    - Quais são os centros urbanos que têm campus da Unifesspa?
+    - Em quantas cidades a Unifesspa está presente?
+    - Quais são os pontos geográficos onde a Unifesspa se estabeleceu?
+    - Em quais áreas específicas a Unifesspa desenvolve suas atividades acadêmicas?
+  
+- intent: unifesspa_cidades_campus
+  examples: | 
+    - Qual é o número total de campus da Unifesspa?
+    - Quantos campus a Unifesspa tem espalhados pela região?
+    - Em quantos lugares a Unifesspa estabeleceu seus campus?
+    - Quantos campus a Unifesspa possui ativos atualmente?
+    - Em quantas cidades a Unifesspa tem seus campus instalados?
+    - Qual é a quantidade exata de campus da Unifesspa?
+    - Em quantos locais diferentes a Unifesspa oferece instalações de campus?
+    - Quantas unidades de campus a Unifesspa tem em funcionamento?
+    - Em quantos pontos geográficos distintos a Unifesspa está presente com seus campus?
+
+- intent: unifesspa_maraba
+  examples: | 
+    - Quantos campus a unifesspa possui em marabá?
+    - Qual é o número de campus da Unifesspa localizados em Marabá?
+    - A Unifesspa possui quantas unidades de campus na cidade de Marabá?
+    - Quantos campus estão ativos em Marabá pela Unifesspa?
+    - Quantas unidades de campus a Unifesspa mantém em Marabá?
+    - Em quantos locais a Unifesspa tem campus em Marabá?
+    - Qual é o total de campus da Unifesspa na cidade de Marabá?
+    - Quantos campus diferentes a Unifesspa possui em Marabá?
+    - Quantas instalações de campus a Unifesspa possui em Marabá?
+    - Quantos campus estão em pleno funcionamento em Marabá pela Unifesspa?
+
+
+
+
+
+
+
+
+
+
+
+

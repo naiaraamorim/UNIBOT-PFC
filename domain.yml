@@ -10,6 +10,9 @@ intents:
   - desafio_bot
   - historia_unifesspa
   - unifesspa_reitor
+  - unifesspa_cidades
+  - unifesspa_cidades_campus
+  - unifesspa_maraba
 
 responses:
   utter_saudacao:
@@ -39,6 +42,15 @@ responses:
   
   utter_reitor:
   - text: "Francisco Ribeiro da Costa"
+
+  utter_cidades:
+  - text: "Marabá, Rondon do Pará, Santana do Araguaia, São Félix do Xingu e Xinguara"
+  
+  utter_cidades_campus:
+  - text: "A unifesspa possui três campus em Marabá (Campus I, II e III), um campus em Rondon do Pará, um campus em  Santana do Araguaia, um campus em  São Félix do Xingu e um campus em Xinguara"
+
+  utter_maraba:
+  - text: "Em marabá a unifesspa possui três campus: Campus I, II e III"
 
   utter_eusouumrobo:
   - text: "Eu sou um robô, alimentado pelo Rasa."

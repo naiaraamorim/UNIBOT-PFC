@@ -17,6 +17,25 @@ stories:
     intent: unifesspa_reitor
   - action: utter_reitor
 
+  - story: caminho cidades unifesspa
+  steps:
+  - user: |
+      em quais cidades tem unifesspa?
+    intent: unifesspa_cidades
+  - action: utter_cidades
+  - user: |
+      quantos campus a unifesspa tem?
+    intent: unifesspa_cidades_campus
+  - action: utter_cidades_campus
+
+   - story: caminho maraba #marabá geral
+  steps:
+  - user: |
+      quantos campus a unifesspa tem em maraba?
+    intent: unifesspa_maraba
+  - action: utter_maraba
+
+
 - story: caminho feliz 2
   steps:
   - user: |

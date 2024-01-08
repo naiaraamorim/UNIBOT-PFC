@@ -14,6 +14,18 @@ stories:
   - intent: unifesspa_reitor
   - action: utter_reitor
 
+- story: caminho cidades unifesspa
+  steps:
+  - intent: unifesspa_cidades
+  - action: utter_cidades
+  - intent: unifesspa_cidades_campus
+  - action: utter_cidades_campus
+
+- story: caminho maraba
+  steps:
+  - intent: unifesspa_maraba
+  - action: utter_maraba
+
 - story: caminho triste 1
   steps:
   - intent: saudacao
