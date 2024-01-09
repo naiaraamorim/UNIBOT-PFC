@@ -13,6 +13,8 @@ intents:
   - unifesspa_cidades
   - unifesspa_cidades_campus
   - unifesspa_maraba
+  - unifesspa_cursos
+  - unifesspa_maraba_cursos
 
 responses:
   utter_saudacao:
@@ -51,6 +53,12 @@ responses:
 
   utter_maraba:
   - text: "Em marabá a unifesspa possui três campus: Campus I, II e III"
+
+  utter_cursos:
+  - text: "Administração, Agronomia, Arquitetura e Urbanismo, Artes Visuais, Ciências Biológicas (Bach), Ciências Biológicas (Lic), Ciências Contábeis, Ciências Econômicas (Bach), Ciências Naturais (Lic), Ciências Sociais (Bach), Ciências Sociais (Lic), Direito, Educação do Campo, Eng. de Minas e Meio Ambiente, Engenharia Civil, Engenharia da Computação, Engenharia de Materiais, Engenharia Elétrica, Engenharia Florestal, Engenharia Mecânica, Engenharia Química, Física, Geografia (Bach), Geografia (Lic), Geologia, História, Jornalismo (Bach), Letras - Inglês (Lic), Letras - Português (Lic), Matemática (Lic), Medicina Veterinária, Pedagogia, Psicologia, Química (Lic), Saúde Coletiva, Sistemas de Informação e Zootecnia."
+
+  utter_maraba_cursos:
+  - text: "A cidade de Marabá possui os cursos de Agronomia, Agronomia, Artes Visuais, Ciências Biológicas (Bach), Ciências Biológicas (Lic), Ciências Econômicas (Bach), Ciências Naturais (Lic), Ciências Sociais (Bach), Ciências Sociais (Lic), Direito, Educação do Campo, Eng. de Minas e Meio Ambiente, Engenharia Civil, Engenharia da Computação, Engenharia de Materiais, Engenharia Elétrica, Engenharia Florestal, Engenharia Mecânica, Engenharia Química, Física, Geografia (Bach), Geografia (Lic), Geologia, História, Letras - Inglês (Lic), Letras - Português (Lic), Matemática (Lic), Pedagogia, Psicologia, Química (Lic), Saúde Coletiva, Sistemas de Informação."
 
   utter_eusouumrobo:
   - text: "Eu sou um robô, alimentado pelo Rasa."

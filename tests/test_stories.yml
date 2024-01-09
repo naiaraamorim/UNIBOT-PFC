@@ -28,12 +28,25 @@ stories:
     intent: unifesspa_cidades_campus
   - action: utter_cidades_campus
 
-   - story: caminho maraba #marabá geral
+  - story: caminho maraba #marabá geral
   steps:
   - user: |
       quantos campus a unifesspa tem em maraba?
     intent: unifesspa_maraba
   - action: utter_maraba
+  - user: |
+      quais cursos a unifesspa em maraba tem?
+    intent: unifesspa_maraba_cursos
+  - action: utter_maraba_cursos
+
+
+  - story: caminho cursos 
+  steps:
+  - user: |
+      quais cursos a unifesspa tem?
+    intent: unifesspa_cursos
+  - action: utter_cursos
+
 
 
 - story: caminho feliz 2

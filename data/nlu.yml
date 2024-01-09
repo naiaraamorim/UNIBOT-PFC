@@ -127,6 +127,17 @@ nlu:
     - Quantas unidades de campus a Unifesspa tem em funcionamento?
     - Em quantos pontos geográficos distintos a Unifesspa está presente com seus campus?
 
+- intent: unifesspa_cursos
+  examples: | 
+    - Quais cursos a unifesspa oferta?
+    - Quantos cursos a unifesspa possui?
+    - Quais são os cursos disponíveis na Unifesspa?
+    - Quais cursos estão disponíveis para os estudantes na Unifesspa?
+    - Quais são as opções de cursos de graduação na Unifesspa?
+    - Quais cursos estão disponíveis para ingresso na Unifesspa?
+    - Que cursos tem na unifesspa?
+    - Quais são os cursos oferecidos pela unifesspa?
+
 - intent: unifesspa_maraba
   examples: | 
     - Quantos campus a unifesspa possui em marabá?
@@ -139,6 +150,26 @@ nlu:
     - Quantos campus diferentes a Unifesspa possui em Marabá?
     - Quantas instalações de campus a Unifesspa possui em Marabá?
     - Quantos campus estão em pleno funcionamento em Marabá pela Unifesspa?
+
+- intent: unifesspa_maraba_cursos
+  examples: | 
+    - Quais cursos unifesspa possui em marabá?
+    - Quais são os cursos oferecidos pela Unifesspa na cidade de Marabá?
+    - Quais cursos a Unifesspa disponibiliza especificamente em Marabá?
+    - Quais são as opções de cursos da Unifesspa na localidade de Marabá?
+    - Quais cursos estão disponíveis para os estudantes na Unifesspa em Marabá?
+    - Quais são os cursos de graduação oferecidos pela Unifesspa em Marabá?
+    - Quais cursos estão disponíveis para ingresso na Unifesspa em Marabá?
+    - Quais cursos que a Unifesspa tem aqui em Marabá?
+    - Quais são as opções de cursos que a Unifesspa tem aqui em Marabá?
+    - A Unifesspa tem quais cursos disponíveis em Marabá?
+
+
+
+
+
+
+
 
 
 
