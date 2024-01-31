@@ -30,8 +30,7 @@ nlu:
     - fui
     - até mais tarde
     - bye
-    - boa noite
-    - tenha um bom dia
+    - Obrigada
     - nos vemos por aí
 
 - intent: desafio_bot
@@ -122,6 +121,25 @@ nlu:
     - Quais cursos que a Unifesspa tem aqui em Marabá?
     - Quais são as opções de cursos que a Unifesspa tem aqui em Marabá?
     - A Unifesspa tem quais cursos disponíveis em Marabá?
+
+- intent: unifesspa_matricula
+  examples: | 
+    - Onde devo fazer minha primeira matrícula?
+    - Como faço para me matricular pela primeira vez?
+    - Quais são os passos necessários para efetuar minha matrícula inicial na UNIFESSPA?
+    - O que é preciso para realizar a matrícula como calouro na UNIFESSPA?
+    - Onde me matriculo para o semestre?
+    - Como faço a matrícula para o proximo semestre?
+    - Onde posso me matrícular?
+
+- intent: unifesspa_matricula_semestre
+  examples: | 
+    - Tenho que fazer minha matrícula todo semestre?
+    - A matrícula precisa ser renovada a cada semestre?
+    - É necessário me matricular novamente a cada novo período letivo?
+    - Devo fazer a matrícula novamente a cada início de semestre?
+
+   
 
 
 

@@ -33,22 +33,9 @@ stories:
   - intent: unifesspa_maraba_cursos
   - action: utter_maraba_cursos
 
-- story: caminho triste 1
+- story: caminho matricula #marabá geral
   steps:
-  - intent: saudacao
-  - action: utter_saudacao
-  - intent: humor_ruim
-  - action: utter_anime
-  - action: utter_ajuda
-  - intent: afirmacao
-  - action: utter_feliz
-
-- story: caminho triste 2
-  steps:
-  - intent: saudacao
-  - action: utter_saudacao
-  - intent: humor_ruim
-  - action: utter_anime
-  - action: utter_ajuda
-  - intent: negacao
-  - action: utter_despedida
+  - intent: unifesspa_matricula
+  - action: utter_matricula
+  - intent: unifesspa_matricula_semestre
+  - action: utter_matricula_semestre

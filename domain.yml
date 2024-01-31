@@ -15,6 +15,8 @@ intents:
   - unifesspa_maraba
   - unifesspa_cursos
   - unifesspa_maraba_cursos
+  - unifesspa_matricula
+  - unifesspa_matricula_semestre
 
 responses:
   utter_saudacao:
@@ -58,6 +60,18 @@ responses:
 
   utter_maraba_cursos:
   - text: "A cidade de Marabá possui os cursos de Agronomia, Agronomia, Artes Visuais, Ciências Biológicas (Bach), Ciências Biológicas (Lic), Ciências Econômicas (Bach), Ciências Naturais (Lic), Ciências Sociais (Bach), Ciências Sociais (Lic), Direito, Educação do Campo, Eng. de Minas e Meio Ambiente, Engenharia Civil, Engenharia da Computação, Engenharia de Materiais, Engenharia Elétrica, Engenharia Florestal, Engenharia Mecânica, Engenharia Química, Física, Geografia (Bach), Geografia (Lic), Geologia, História, Letras - Inglês (Lic), Letras - Português (Lic), Matemática (Lic), Pedagogia, Psicologia, Química (Lic), Saúde Coletiva, Sistemas de Informação."
+
+  utter_matricula:
+  - text: "A primeira matrícula do discente ingressante deve ser realizada diretamente na coordenação/secretaria da faculdade. As matrículas posteriores de cada semestre devem ser realizadas pelo próprio discente através do SIGAA, on-line."
+  - text: "A primeira matrícula dos novos alunos é feita na secretaria da faculdade. A partir do segundo semestre, a matrícula é feita online através do sistema SIGAA."
+  - text: "Para a primeira matrícula, os estudantes devem comparecer à secretaria do curso. As matrículas seguintes podem ser feitas de forma online no SIGAA."
+  - text: "A matrícula inicial deve ser feita pessoalmente na secretaria acadêmica. Posteriormente, os alunos podem se matricular online utilizando o SIGAA."
+  - text: "Os novos alunos devem efetuar a matrícula pessoalmente na coordenação do curso. As matrículas seguintes podem ser realizadas remotamente através do SIGAA."
+  
+  utter_matricula_semestre:
+  - text: "Sim"
+
+
 
   utter_eusouumrobo:
   - text: "Eu sou um robô, alimentado pelo Rasa."
