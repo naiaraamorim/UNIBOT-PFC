@@ -1,0 +1,25 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhNC8zLbW4uCAxPjexKDEpsbY2FgAzGh//": "utter_maraba",
+    "eJyNjMEJgDAMAFfJAE7QVURKlAgBm5Yk9VO6uwX1rb87OG5ufYJWlM6Im3OWAO2GKJgowCMHm5OMthrpaFiGeoAqvJNZwZhQccX+savupG/747ZcfKk92A==": "action_listen",
+    "eJyljkEKgDAMBL/SB/iCfkUkxBKhYNOSpF5K/25BPYt424Fh2Ln1ybUidAAGi5m9a9cAxkTe3bBHNeLhViUZTuSB5l3luJFqQUgouGJ/yVUzksf9Xft4DkIVzdr7cgLNGF8k": "utter_maraba_cursos",
+    "eJyljlEKgCAQRK/iATqBV4mQTTYQcpPdtR/x7gnld0l/M/DmMXOpkymJ8XTgNRxkTbmDI4hozVP2IIrU2CzIjQnUqlqTKWwoksBFYFihvuiyKnJnf9sGzzmfWQ4Z+dgn393LBWKOgvk=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhNC8zLbW4uCAxPrm0qDi/uLY2FgA0VSA6": "utter_cursos",
+    "eJyNjNsJgDAMAFfJAE7QVYqUUiIENC15+FO6uwX1W//u4LjYxwK9CZ4pF6PKAfoNifOBAR7ZSQ15tq4osyGeagGcaUPVllNx0arjY+dmKG/747Zemio+iQ==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhNC8zLbW4uCAxPjexpCgzuTQnsbY2FgCWYyFd": "utter_matricula",
+    "eJyNjMkJgDAQAFtJAVaQVkTCElZYSNawh5+Q3g3ow5/+ZmCYtY8l9CZ4JshGB8fQb0gMFWN4pJAa8mxdUWZDPNVicKYdVRukCiaUvcD4OLoZyiv/99wu2JhB8g==": "action_listen",
+    "eJytjkEKgDAMBL/SB/iCfkWkBFkhYKMkqZfSv1vQgzcRvO3AMOxY2xDqrjgSzc6bxFCvkYQyYrhhZXNId4tBu8PS0WMowgvMdkqZXHkuK7WXYnGHPvQ/mt9fJkOGuaK16QSBimVl": "utter_matricula_semestre",
+    "eJytjksKwzAMRK/iA/QEvkoJRpgJCGw1SHI3xnevIYF2VwzZzcCbz7OPR+iH4p0oO78khn6KJFQRw2UKm0Mm2ww6GZZpPYYmvMPsoFTJlXMrNP40NnfoD35H5/rLZKgwVyze/eYWV7YP1X2NiA==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5Mb+2NhYAPkUcrw==": "utter_saudacao",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5Mb+WgDGlJSWpRfFw1XjMiQUAL4M4FQ==": "action_listen",
+    "eJydjkEKgDAMBL/SB/iCfkWkhBoxoGlpUi+lfzegeC1421mGZefWJ9dywStAVErsXXtCYDjRuxcOEkU2twoWc4gN1TuBukKE1AczVRVL+OzfO4M7u/WpEITKtKFIht6XG9djV2I=": "utter_historiaUni",
+    "eJydjksKgDAMRK/SA3iC3sOVSAkaMaCpNKmb0rtb8LNtcZcJbx4zpNyZdAQ8HUxKnq1J9+EYdrTmCRuJIhc2CobCEJeo1gjEGSbwuaKJqhjcR//2VOas5e8DgYtMC4oc0Dbs7fVMbdLxAk45eGU=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhNC8zLbW4uCAxvig1syS/qLY2FgA0HyAw": "utter_reitor",
+    "eJyNjNEJgDAMBVfJAE7QVURKkScENC1J6k/p7hbUb/27g+Pm1idqRXHGtDpnCdRuiJIOBHpkZ3PIaKtBR8My1ANV4Q1mJUUFe9b+savu0Lf9cVsulSg+aw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhNC8zLbW4uCAxPjkzJTEltbi2NhYAUyIgaA==": "utter_cidades",
+    "eJyNjMEJgDAMAFfJAE7QVURKaCMENJYm9VO6uwHFr/7u4Li5jwl6qXRGTMaHBOg3RMGdAjyysRqJt02pesPiagGa8EqqBWPijJl0fPyaGdU3/vNbLjrTPxM=": "action_listen",
+    "eJyljkEKgDAMBL/SB/iCfkWkhDZCwMbSpF5K/25A8SribQeGYec+JtdLxSNAVNrZu36NwJDRuxs2EkU2twlWc4gN1bvGtKJIgRApQUIZL72mivWR//e+/gsRcmmWXU5UtWCy": "utter_cidades_campus",
+    "eJyljksKwCAMRK/iAXoCr1KKBE0hUFMxsRvx7hX62RbpbgbePGaubTI1ZTwceKWdralXcAwRrbnLRqLInS2CuTPEvao1hWlFkQTOU4CA0j58RRXzC//3jf5zHmIqYzefzYB9OQF+fIUt": "action_listen"
+  }
+}
