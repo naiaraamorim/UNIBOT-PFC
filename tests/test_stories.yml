@@ -1,65 +1,65 @@
 stories:
-- story: caminho historia
-  steps:
-  - user: |
-      olá!
-    intent: saudacao
-  - action: utter_saudacao
-  - user: |
-      história unifesspa
-    intent: historia_unifesspa
-  - action: utter_historiaUni
+  - story: caminho historia
+    steps:
+      - user: |
+          olá!
+        intent: saudacao
+      - action: utter_saudacao
+      - user: |
+          história unifesspa
+        intent: historia_unifesspa
+      - action: utter_historiaUni
   
   - story: caminho reitor
-  steps:
-  - user: |
-      quem é o reitor?
-    intent: unifesspa_reitor
-  - action: utter_reitor
+    steps:
+      - user: |
+          quem é o reitor?
+        intent: unifesspa_reitor
+      - action: utter_reitor
 
   - story: caminho cidades unifesspa
-  steps:
-  - user: |
-      em quais cidades tem unifesspa?
-    intent: unifesspa_cidades
-  - action: utter_cidades
-  - user: |
-      quantos campus a unifesspa tem?
-    intent: unifesspa_cidades_campus
-  - action: utter_cidades_campus
+    steps:
+      - user: |
+          em quais cidades tem unifesspa?
+        intent: unifesspa_cidades
+      - action: utter_cidades
+      - user: |
+          quantos campus a unifesspa tem?
+        intent: unifesspa_cidades_campus
+      - action: utter_cidades_campus
 
   - story: caminho maraba #marabá geral
-  steps:
-  - user: |
-      quantos campus a unifesspa tem em maraba?
-    intent: unifesspa_maraba
-  - action: utter_maraba
-  - user: |
-      quais cursos a unifesspa em maraba tem?
-    intent: unifesspa_maraba_cursos
-  - action: utter_maraba_cursos
+    steps:
+      - user: |
+          quantos campus a unifesspa tem em maraba?
+        intent: unifesspa_maraba
+      - action: utter_maraba
+      - user: |
+          quais cursos a unifesspa em maraba tem?
+        intent: unifesspa_maraba_cursos
+      - action: utter_maraba_cursos
 
   - story: caminho cursos 
-  steps:
-  - user: |
-      quais cursos a unifesspa tem?
-    intent: unifesspa_cursos
-  - action: utter_cursos
+    steps:
+      - user: |
+          quais cursos a unifesspa tem?
+        intent: unifesspa_cursos
+      - action: utter_cursos
 
- - story: caminho matricula
-  steps:
-  - user: |
-      como faço a matrícula?
-    intent: unifesspa_matricula
-  - action: utter_matricula
-   user: |
-      tenho que matrícular todo semestre?
-    intent: unifesspa_matricula_semestre
-  - action: uutter_matricula_semestre
+  - story: caminho matricula
+    steps:
+      - user: |
+          como faço a matrícula?
+        intent: unifesspa_matricula
+      - action: utter_matricula
+      - user: |
+          tenho que matrícular todo semestre?
+        intent: unifesspa_matricula_semestre
+      - action: utter_matricula_semestre
 
-- story: desafio do bot
-  steps:
-  - user: |
-      você é um robô?
-    intent: desafio_bot
-  - action: utter_eusouumrobo
+  - story: desafio do bot
+    steps:
+      - user: |
+          você é um robô?
+        intent: desafio_bot
+      - action: utter_eusouumrobo

@@ -26,14 +26,14 @@ stories:
   - intent: unifesspa_cursos
   - action: utter_cursos
 
-- story: caminho maraba #marabá geral
+- story: caminho maraba
   steps:
   - intent: unifesspa_maraba
   - action: utter_maraba
   - intent: unifesspa_maraba_cursos
   - action: utter_maraba_cursos
 
-- story: caminho matricula #marabá geral
+- story: caminho matricula
   steps:
   - intent: unifesspa_matricula
   - action: utter_matricula

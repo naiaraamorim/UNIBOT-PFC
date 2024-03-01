@@ -1,0 +1,10 @@
+[
+  {
+    "text": "Tenho que me matricular de novo?",
+    "intent": "unifesspa_matricula_semestre",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.40889090299606323
+    }
+  }
+]

@@ -83,7 +83,7 @@ nlu:
     - Qual é a quantidade exata de campus da Unifesspa?
     - Em quantos locais diferentes a Unifesspa oferece instalações de campus?
     - Quantas unidades de campus a Unifesspa tem em funcionamento?
-    - Em quantos pontos geográficos distintos a Unifesspa está presente com seus campus?
+    - Em quantos pontos geográficos distintos a Unifesspa está presente com seus campus?  
 
 - intent: unifesspa_cursos
   examples: | 

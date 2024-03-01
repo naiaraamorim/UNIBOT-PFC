@@ -1,0 +1,20 @@
+version: "3.1"
+stories:
+- story: caminho historia (./tests/test_stories.yml)
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: historia_unifesspa  # predicted: saudacao: história unifesspa
+  - action: utter_historiaUni
+- story: caminho cidades unifesspa (./tests/test_stories.yml)
+  steps:
+  - intent: unifesspa_cidades
+  - action: utter_cidades
+  - intent: unifesspa_cidades_campus  # predicted: unifesspa_cursos: quantos campus a unifesspa tem?
+  - action: utter_cidades_campus
+- story: caminho maraba (./tests/test_stories.yml)
+  steps:
+  - intent: unifesspa_maraba
+  - action: utter_maraba
+  - intent: unifesspa_maraba_cursos  # predicted: unifesspa_cursos: quais cursos a unifesspa em maraba tem?
+  - action: utter_maraba_cursos

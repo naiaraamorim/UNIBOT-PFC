@@ -20,21 +20,12 @@ intents:
 
 responses:
   utter_saudacao:
-  - text: "E aí! Como vai você?"
+  - text: "E aí! Como posso ajudar?"
   - text: "Olá, seja bem vindo"
   - text: "Olá! Como posso ajudá-lo hoje?"
   - text: "Olá, seja bem-vindo! Em que posso ser útil?"
   - text: "Oi! Estou pronto para responder às suas perguntas. O que você precisa?"
   - text: "Olá! Que bom vê-lo por aqui. Como posso ajudar hoje?"
-
-  utter_despedida:
-  - text: "Tchau"
-  - text: "Até logo!"
-  - text: "Foi um prazer ajudar. Até logo!"
-  - text: "Espero ter sido útil. Até a próxima!"
-  - text: "Até breve!"
-  - text: "Até a próxima vez!"
-  - text: "Se precisar de mais alguma coisa, estou à disposição. Até mais!"
 
   utter_historiaUni:
   - text: "Em 5 de junho de 2013, a Unifesspa foi estabelecida por meio da Lei Federal 12.824, originando-se do Campus Marabá da UFPA. Seu principal propósito é difundir uma educação pública de excelência. A instituição está profundamente enraizada na comunidade local, enfatizando o desenvolvimento regional como um dos pilares centrais de sua missão."
@@ -71,6 +62,15 @@ responses:
   utter_matricula_semestre:
   - text: "Sim"
 
+
+  utter_despedida:
+  - text: "Tchau"
+  - text: "Até logo!"
+  - text: "Foi um prazer ajudar. Até logo!"
+  - text: "Espero ter sido útil. Até a próxima!"
+  - text: "Até breve!"
+  - text: "Até a próxima vez!"
+  - text: "Se precisar de mais alguma coisa, estou à disposição. Até mais!"
 
 
   utter_eusouumrobo:
